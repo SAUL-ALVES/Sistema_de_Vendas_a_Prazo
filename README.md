@@ -134,7 +134,4 @@ MIT © Saul. Consulte o arquivo [LICENSE](LICENSE) para detalhes.
 ## ✉️ Contato
 **Email**: saulalves55@gmail.com
 
-
-```
-
 ---
