@@ -1,6 +1,5 @@
 # 📊 Sistema de Vendas a Prazo
 
-![Preview do Sistema](https://via.placeholder.com/800x400?text=Sistema+de+Vendas+a+Prazo)  
 *Dashboard, Cadastro de Clientes, Produtos e Registro de Vendas*
 
 ---
@@ -54,7 +53,7 @@ Todas via CDN (sem necessidade de instalação local):
 1. **Clone o repositório**:
    ```bash
    git clone https://github.com/SAUL-ALVES/Sistema_de_Vendas_a_Prazo.git
-   cd sistema-vendas-prazo
+   cd Sistema_de_Vendas_a_Prazo
    ```
 
 2. **Execute com um servidor local** (recomendado):
