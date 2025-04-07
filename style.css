@@ -1,0 +1,137 @@
+/* Estilos Gerais */
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #3498db;
+    --success-color: #27ae60;
+    --light-color: #ecf0f1;
+    --dark-color: #2c3e50;
+    --danger-color: #e74c3c;
+    --warning-color: #f39c12;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f7fa;
+    color: var(--dark-color);
+    line-height: 1.6;
+  }
+  
+  /* Tela de Login */
+  .login-container {
+    max-width: 400px;
+    margin: 5rem auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-container h1 {
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .login-form .form-control {
+    padding: 12px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    margin-bottom: 1rem;
+  }
+  
+  .login-form .btn {
+    width: 100%;
+    padding: 12px;
+    font-weight: 600;
+  }
+  
+  .register-link {
+    text-align: center;
+    margin-top: 1rem;
+    color: var(--secondary-color);
+    cursor: pointer;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: var(--primary-color);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand {
+    font-weight: 700;
+    color: white !important;
+  }
+  
+  .nav-link {
+    color: rgba(255, 255, 255, 0.85) !important;
+    font-weight: 500;
+  }
+  
+  .nav-link:hover, .nav-link.active {
+    color: white !important;
+  }
+  
+  /* Cards */
+  .card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    margin-bottom: 1.5rem;
+  }
+  
+  .card-header {
+    background-color: white;
+    border-bottom: 1px solid #eee;
+    font-weight: 600;
+  }
+  
+  /* Botões */
+  .btn-primary {
+    background-color: var(--secondary-color);
+    border: none;
+  }
+  
+  .btn-success {
+    background-color: var(--success-color);
+    border: none;
+  }
+  
+  .btn:hover {
+    opacity: 0.9;
+  }
+  
+  /* Formulários */
+  .form-control {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  }
+  
+  .form-control:focus {
+    border-color: var(--secondary-color);
+    box-shadow: 0 0 0 0.25rem rgba(52, 152, 219, 0.25);
+  }
+  
+  /* Listas */
+  .list-group-item {
+    border-left: none;
+    border-right: none;
+  }
+  
+  /* Dashboard */
+  .dashboard-card {
+    transition: transform 0.3s;
+  }
+  
+  .dashboard-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .login-container {
+      margin: 2rem auto;
+      padding: 1.5rem;
+    }
+  }
